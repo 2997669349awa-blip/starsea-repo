@@ -1,0 +1,54 @@
+Package: calc
+Version: 1.0
+Depends: 
+Filename: calc.spm.tar.gz
+Description: Command line calculator
+
+Package: cowsay
+Version: 3.0
+Depends: 
+Filename: cowsay.spm.tar.gz
+Description: ASCII cow speech
+
+Package: fortunes
+Version: 2.1
+Depends: 
+Filename: fortunes.spm.tar.gz
+Description: Random fortune quotes
+
+Package: gcdemo
+Version: 1.0
+Depends: 
+Filename: gcdemo.spm.tar.gz
+Description: Framebuffer graphics demo launcher
+
+Package: hello
+Version: 1.0
+Depends: 
+Filename: hello.spm.tar.gz
+Description: Greeting utility
+
+Package: hello-pro
+Version: 2.0
+Depends: 
+Filename: hello-pro.spm.tar.gz
+Description: Enhanced greeting (conflicts with hello)
+
+Package: nettool
+Version: 1.0
+Depends: 
+Filename: nettool.spm.tar.gz
+Description: Network diagnostic toolkit
+
+Package: sysinfo
+Version: 1.2
+Depends: hello>=1.0
+Filename: sysinfo.spm.tar.gz
+Description: System info (needs hello)
+
+Package: sysmon
+Version: 1.0
+Depends: 
+Filename: sysmon.spm.tar.gz
+Description: System monitor dashboard
+
