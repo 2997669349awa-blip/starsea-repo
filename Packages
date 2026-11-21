@@ -1,8 +1,20 @@
+Package: btop
+Version: 1.2.13
+Depends: 
+Filename: btop.spm.tar.gz
+Description: btop 1.2 - resource monitor
+
 Package: calc
 Version: 1.0
 Depends: 
 Filename: calc.spm.tar.gz
 Description: Command line calculator
+
+Package: cmake
+Version: 3.25.1
+Depends: 
+Filename: cmake.spm.tar.gz
+Description: CMake 3.25.1 - cross-platform build generator
 
 Package: cowsay
 Version: 3.0
@@ -10,11 +22,23 @@ Depends:
 Filename: cowsay.spm.tar.gz
 Description: ASCII cow speech
 
+Package: curl
+Version: 7.88.1
+Depends: 
+Filename: curl.spm.tar.gz
+Description: curl 7.88 - command line URL transfer tool
+
 Package: fortunes
 Version: 2.1
 Depends: 
 Filename: fortunes.spm.tar.gz
 Description: Random fortune quotes
+
+Package: fzf
+Version: 0.38.0
+Depends: 
+Filename: fzf.spm.tar.gz
+Description: fzf 0.38 - fuzzy finder for command line
 
 Package: gcc
 Version: 12.2.0
@@ -28,6 +52,12 @@ Depends:
 Filename: gcdemo.spm.tar.gz
 Description: Framebuffer graphics demo launcher
 
+Package: git
+Version: 2.39.5
+Depends: 
+Filename: git.spm.tar.gz
+Description: Git 2.39.5 - distributed version control
+
 Package: hello
 Version: 1.0
 Depends: 
@@ -40,11 +70,29 @@ Depends:
 Filename: hello-pro.spm.tar.gz
 Description: Enhanced greeting (conflicts with hello)
 
+Package: htop
+Version: 3.2.2
+Depends: 
+Filename: htop.spm.tar.gz
+Description: htop 3.2.2 - interactive process viewer
+
 Package: java
 Version: 25.0.5
 Depends: 
 Filename: java.spm.tar.gz
 Description: Temurin JRE 25.0.5 LTS - official ARM64 Java runtime
+
+Package: jq
+Version: 1.6
+Depends: 
+Filename: jq.spm.tar.gz
+Description: jq 1.6 - lightweight JSON processor
+
+Package: make
+Version: 4.3
+Depends: 
+Filename: make.spm.tar.gz
+Description: GNU Make 4.3 - build automation tool
 
 Package: mysql-client
 Version: 10.11.18
@@ -52,11 +100,23 @@ Depends:
 Filename: mysql-client.spm.tar.gz
 Description: MariaDB 10.11.18 MySQL-compatible client (mysql,mysqldump) for ARM64
 
+Package: nano
+Version: 7.2
+Depends: 
+Filename: nano.spm.tar.gz
+Description: nano 7.2 - simple text editor
+
 Package: nettool
 Version: 1.0
 Depends: 
 Filename: nettool.spm.tar.gz
 Description: Network diagnostic toolkit
+
+Package: ninja
+Version: 1.11.1
+Depends: 
+Filename: ninja.spm.tar.gz
+Description: Ninja 1.11 - small build system
 
 Package: nodejs
 Version: 26.13.1
@@ -64,11 +124,35 @@ Depends:
 Filename: nodejs.spm.tar.gz
 Description: Node.js 26.13.1 LTS - official ARM64 runtime with npm/npx
 
+Package: openssh-client
+Version: 9.2p1
+Depends: 
+Filename: openssh-client.spm.tar.gz
+Description: OpenSSH 9.2 client - ssh/scp/sftp
+
 Package: python3
 Version: 3.15.2
 Depends: 
 Filename: python3.spm.tar.gz
 Description: Python 3.15.2 standalone - official ARM64 build with pip
+
+Package: ripgrep
+Version: 13.0.0
+Depends: 
+Filename: ripgrep.spm.tar.gz
+Description: ripgrep 13 - fast recursive grep (rg)
+
+Package: rsync
+Version: 3.2.7
+Depends: 
+Filename: rsync.spm.tar.gz
+Description: rsync 3.2.7 - fast file synchronization
+
+Package: sqlite3
+Version: 3.40.1
+Depends: 
+Filename: sqlite3.spm.tar.gz
+Description: SQLite 3.40.1 CLI - embeddable database shell
 
 Package: sysinfo
 Version: 1.2
@@ -81,4 +165,46 @@ Version: 1.0
 Depends: 
 Filename: sysmon.spm.tar.gz
 Description: System monitor dashboard
+
+Package: tmux
+Version: 3.3a
+Depends: 
+Filename: tmux.spm.tar.gz
+Description: tmux 3.3a - terminal multiplexer
+
+Package: tree
+Version: 2.1.0
+Depends: 
+Filename: tree.spm.tar.gz
+Description: tree 2.1 - recursive directory listing
+
+Package: unzip
+Version: 6.0
+Depends: 
+Filename: unzip.spm.tar.gz
+Description: unzip 6.0 - extract ZIP archives
+
+Package: vim
+Version: 9.0.1378
+Depends: 
+Filename: vim.spm.tar.gz
+Description: Vim 9.0 - improved text editor
+
+Package: wget
+Version: 1.21.3
+Depends: 
+Filename: wget.spm.tar.gz
+Description: wget 1.21 - network file downloader
+
+Package: zip
+Version: 3.0
+Depends: 
+Filename: zip.spm.tar.gz
+Description: zip 3.0 - create ZIP archives
+
+Package: zsh
+Version: 5.9
+Depends: 
+Filename: zsh.spm.tar.gz
+Description: Zsh 5.9 - powerful interactive shell
 
