@@ -16,6 +16,12 @@ Depends:
 Filename: fortunes.spm.tar.gz
 Description: Random fortune quotes
 
+Package: gcc
+Version: 12.2.0
+Depends: 
+Filename: gcc.spm.tar.gz
+Description: GCC 12.2.0 C/C++ compiler toolchain for ARM64 (gcc,g++,as,ld,libc headers)
+
 Package: gcdemo
 Version: 1.0
 Depends: 
@@ -34,11 +40,35 @@ Depends:
 Filename: hello-pro.spm.tar.gz
 Description: Enhanced greeting (conflicts with hello)
 
+Package: java
+Version: 25.0.5
+Depends: 
+Filename: java.spm.tar.gz
+Description: Temurin JRE 25.0.5 LTS - official ARM64 Java runtime
+
+Package: mysql-client
+Version: 10.11.18
+Depends: 
+Filename: mysql-client.spm.tar.gz
+Description: MariaDB 10.11.18 MySQL-compatible client (mysql,mysqldump) for ARM64
+
 Package: nettool
 Version: 1.0
 Depends: 
 Filename: nettool.spm.tar.gz
 Description: Network diagnostic toolkit
+
+Package: nodejs
+Version: 26.13.1
+Depends: 
+Filename: nodejs.spm.tar.gz
+Description: Node.js 26.13.1 LTS - official ARM64 runtime with npm/npx
+
+Package: python3
+Version: 3.15.2
+Depends: 
+Filename: python3.spm.tar.gz
+Description: Python 3.15.2 standalone - official ARM64 build with pip
 
 Package: sysinfo
 Version: 1.2

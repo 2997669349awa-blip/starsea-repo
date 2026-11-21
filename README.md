@@ -28,6 +28,26 @@ spm list
 https://raw.githubusercontent.com/2997669349awa-blip/starsea-repo/main
 ```
 
+## 包清单
+
+### 开发工具与运行环境（ARM64 官方/上游二进制）
+
+| 包名 | 版本 | 说明 | 提供的命令 |
+|------|------|------|-----------|
+| `python3` | 3.15.2 | Python 官方 standalone 构建，自带 pip | `python3` `python` `pip3` |
+| `nodejs` | 26.13.1 | Node.js LTS（nodejs.org 官方），自带 npm/npx/corepack | `node` `npm` `npx` `corepack` |
+| `java` | 25.0.5 | Eclipse Temurin JRE 25 LTS | `java` `keytool` |
+| `gcc` | 12.2.0 | GCC 工具链（Debian 官方，含 as/ld/头文件） | `gcc` `cc` `cpp` `as` `ld` |
+| `mysql-client` | 10.11.18 | MariaDB/MySQL 兼容命令行客户端 | `mysql` `mysqldump` `mysqladmin` |
+
+> 安装后命令位于 `/usr/local/bin`（默认在 PATH 中），程序主体位于 `/opt/<name>`。
+>
+> 说明：MySQL/MariaDB **服务端**官方二进制超过 900MB，超出 GitHub 单文件上限，故本源提供的是**客户端**（可连接任意 MySQL/MariaDB 服务器）。Python/Node/Java/GCC 均为对应上游的官方最新版 ARM64 构建，全部为真实可运行二进制。
+
+### 基础与演示包
+
+`calc` `cowsay` `fortunes` `gcdemo` `hello` `hello-pro` `nettool` `sysinfo` `sysmon`
+
 ## 目录结构
 
 ```
